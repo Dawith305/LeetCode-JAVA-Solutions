@@ -9,7 +9,7 @@ public class ThreeSum {
         //sort the arrays first
         Arrays.sort(nums);
 
-        List<List<Integer>> output = new LinkedList();
+        List<List<Integer>> output = new ArrayList<>();
 
         //iterate till we have two element left to the right to add and compare to the target
         for(int i = 0; i< nums.length - 2;i++){
